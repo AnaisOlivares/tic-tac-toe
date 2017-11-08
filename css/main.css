@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.board {
+  margin: 100px auto;
+  /*border-collapse: collapse; para quitar el border a tablas*/
+}
+.board td {
+  width: 100px;
+  height: 100px;
+  border: 1px solid purple;
+  background-color: rgba(235, 79, 224, 0.34);
+  transition: 0.5s;
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+td:hover {
+  background-color: purple;
+}
