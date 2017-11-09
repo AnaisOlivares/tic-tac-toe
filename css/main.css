@@ -3,10 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .board {
   margin: 100px auto;
   /*border-collapse: collapse; para quitar el border a tablas*/
 }
+
 .board td {
   width: 100px;
   height: 100px;
@@ -17,17 +19,23 @@
   font-size: 40px;
   font-family: sans-serif;
 }
+
 td:hover {
   background-color: purple;
 }
+
 button {
   position: absolute;
   text-align: center;
   left: 70%;
   top: 55%;
   background-color: rgba(234, 238, 23, 0.83);
- border: none;
- border-radius: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: rgb(232, 251, 6);
 }
 
 a {
@@ -36,4 +44,5 @@ a {
   padding: 15px;
   color: black;
   font-size: 12px;
+  font-family: sans-serif;
 }
